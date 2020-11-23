@@ -1,6 +1,5 @@
-function addNumbers(a,b)
-{
-	// This is the function body. Write your code here.
+function addNumbers(a,b) {
+	return (a+b);
 }
 
 //Do not change the code below

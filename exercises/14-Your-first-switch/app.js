@@ -1,17 +1,13 @@
-function getColor(selection)
-{
-	switch(selection){
-		// Add more options here
-	    default:
-	    	return false;  //returns false because the user picked an unavailable color
-	    break;               
-	}
+var answer = prompt("Type one letters: ");
+answer = answer.toLowerCase;
+
+switch(answer) {
+    case "o":
+        console.log("Ooh awkward, you are far too young to be running this code!");
+    break;
+    case "u":
+        console.log("Woohoo, let's play sunshine!");
+    break;
+    default:
+        console.log("Not");
 }
-
-var colorname = window.prompt('What color do you want?');
-var isAvailable = getColor(colorname);
-
-if(isAvailable)
-	console.log('Good news! That color is available');
-else 
-	console.log('We are sorry, that color is not available');
